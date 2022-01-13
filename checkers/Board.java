@@ -1,6 +1,4 @@
-public interface ChessBoard{
-	
-	Piece[][] board = new Piece[8][8];
+public interface Board{
 	
 	//possible moves
 	public Set generateMoves();
