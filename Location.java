@@ -2,7 +2,7 @@ public class Location{
 	
 	final char[] FILES = {'A','B','C','D','E','F','G','H'};
 	
-	int x,y;
+	public int x,y;
 	
 	public Location(int x, int y){
 		this.x = x;
@@ -18,7 +18,7 @@ public class Location{
 	}
 	
 	public String getRankFile(){
-		return "" + FILES[x] + y;
+		return "" + FILES[x] + (y + 1);
 	}
 	
 }

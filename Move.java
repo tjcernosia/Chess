@@ -8,4 +8,10 @@ public class Move{
 		this.l = l;
 	}
 	
+	public String toString(){
+		
+		return p.icon() + l.getRankFile().toLowerCase();
+		
+	}
+	
 }
