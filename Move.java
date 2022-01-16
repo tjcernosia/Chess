@@ -13,5 +13,5 @@ public class Move{
 		return p.icon() + l.getRankFile().toLowerCase();
 		
 	}
-	
+	// Changing to check update
 }
