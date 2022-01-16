@@ -9,11 +9,9 @@ public class Tester{
 		PrintStream p = new PrintStream(System.out, true, "UTF-8");
 		
 		ChessBoard b = new ChessBoard();
-		p.println(b.generateMoves());
+		Knight k = new Knight(0,0,true);
 		
-		Knight k = new Knight(0,6, true);
 		p.println(k.generateMoves());
-		
 		
 	}
 	
