@@ -1,9 +1,0 @@
-public interface ChessBoard{
-	
-	Piece[][] board = new Piece[8][8];
-	
-	//possible moves
-	public Set generateMoves();
-	public Set generateMoves(Piece p);
-	
-}
